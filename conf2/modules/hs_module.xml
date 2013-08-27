@@ -1,0 +1,23 @@
+<!DOCTYPE module SYSTEM "module.dtd">
+
+<module name="hs_module">
+  <doc>
+    <description>Ipopt demo module</description>
+  </doc>
+  
+ <header>
+  <file name="hs071_c.h"/>
+ </header>
+  
+ <init fun="ipopt_init()"/>
+ <periodic fun="period_hs()" freq="0.1"/>
+  <makefile target="nps">
+  <file name="hs071_c.c"/>
+  	 <raw>
+  	 	nps.CFLAGS += "-I/home/bheliom/develop/CoinIpopt/build/include/coin"
+  	 	nps.LDFLAGS+= "-L/home/bheliom/develop/CoinIpopt/build/lib" -lipopt -llapack -lcoinhsl -lblas -lm  -ldl -lstdc++ -lm	
+  	 </raw>
+  </makefile>
+  
+</module>
+

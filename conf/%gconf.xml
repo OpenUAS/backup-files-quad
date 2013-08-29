@@ -1,8 +1,0 @@
-<gconf>
-  <entry name="left_pane_width" value="421" application="paparazzi center"/>
-  <entry name="height" value="723" application="paparazzi center"/>
-  <entry name="width" value="1267" application="paparazzi center"/>
-  <entry name="last target" value="nps" application="paparazzi center"/>
-  <entry name="last session" value="Simulation" application="paparazzi center"/>
-  <entry name="last A/C" value="Quad_LisaM_2" application="paparazzi center"/>
-</gconf>

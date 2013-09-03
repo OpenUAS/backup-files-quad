@@ -1,0 +1,15 @@
+<!DOCTYPE module SYSTEM "module.dtd">
+
+<module name="ipopt_test">
+  <doc>
+    <description>Demo module</description>
+  </doc>
+  <header>
+    <file name="TutorialC.h"/>
+  </header>
+  <init fun="init_ipopt()"/>
+  <makefile>
+    <file name="TutorialC.c"/>
+  </makefile>
+</module>
+
